@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Жылдық асқа шақыру — Жолддыбаев Мәлік Темірланұлы</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --deep: #2b5a38;
+      --gold: #c9a85a;
+      --card-bg: #fefcf5;
+      --text: #1b3a2b;
+      --muted: #4b5e4c;
+      --maxw: 820px;
+    }
+
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body{
+      font-family: "Inter", sans-serif;
+      background: linear-gradient(135deg, #f8f7f0, #e8f0e0);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+      padding:20px;
+    }
+
+    .wrap{
+      width:100%;
+      max-width:var(--maxw);
+      display:flex;
+      justify-content:center;
+    }
+
+    .card{
+      background: var(--card-bg);
+      border-radius:30px;
+      padding:50px 36px 40px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.12), 0 0 0 2px rgba(201,168,90,0.3);
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(201,168,90,0.2);
+    }
+
+    .card::before {
+      content:"";
+      position:absolute;
+      top:-50px; left:-50px;
+      width:200px; height:200px;
+      background: radial-gradient(circle at center, rgba(201,168,90,0.2), transparent 70%);
+      border-radius:50%;
+      z-index:0;
+    }
+
+    .photo-wrap{
+      width:180px;
+      height:180px;
+      margin:0 auto 20px;
+      border-radius:50%;
+      overflow:hidden;
+      border:6px solid var(--gold);
+      box-shadow: 0 12px 32px rgba(28,52,34,0.2), 0 0 18px rgba(201,168,90,0.3);
+      position:relative;
+      z-index:1;
+      background: linear-gradient(180deg, rgba(255,255,255,0.7), rgba(0,0,0,0.05));
+    }
+
+    .photo-wrap img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+      transition: transform 0.4s ease;
+    }
+
+    .photo-wrap:hover img{
+      transform: scale(1.05);
+    }
+
+    h1{
+      text-align:center;
+      font-family:'Playfair Display', serif;
+      font-size:28px;
+      letter-spacing:1px;
+      text-transform:uppercase;
+      background: linear-gradient(45deg, #d4af37, #f2e29c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom:8px;
+      z-index:1;
+      position:relative;
+    }
+
+    h2{
+      text-align:center;
+      font-size:20px;
+      color:var(--muted);
+      font-weight:600;
+      margin-bottom:20px;
+      position:relative;
+      z-index:1;
+    }
+
+    .lead{
+      text-align:center;
+      font-size:16px;
+      line-height:1.8;
+      color:var(--text);
+      max-width:700px;
+      margin:0 auto 30px;
+      z-index:1;
+      position:relative;
+    }
+
+    .blocks{
+      display:flex;
+      justify-content:center;
+      flex-direction:column;
+      gap:16px;
+      z-index:1;
+      position:relative;
+    }
+
+    .block{
+      background: rgba(255,255,255,0.95);
+      padding:20px 24px;
+      border-radius:16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      border:1px solid rgba(201,168,90,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .block:hover{
+      transform: translateY(-4px);
+      box-shadow: 0 14px 35px rgba(0,0,0,0.12);
+    }
+    .block b{
+      display:block;
+      font-size:16px;
+      color:var(--deep);
+      margin-bottom:6px;
+      font-weight:700;
+    }
+    .block .line{
+      font-size:16px;
+      color:var(--muted);
+      line-height:1.6;
+    }
+
+    .map-link{
+      display:inline-block;
+      margin-top:12px;
+      padding:10px 20px;
+      border-radius:12px;
+      background: var(--gold);
+      color:#fff;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 18px rgba(201,168,90,0.3);
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    .map-link:hover{
+      background: #b59440;
+      transform: translateY(-2px);
+    }
+
+    .footer-note{
+      text-align:center;
+      font-size:13px;
+      color: rgba(75,94,76,0.7);
+      margin-top:28px;
+      position:relative;
+      z-index:1;
+    }
+
+    @media (max-width:560px){
+      .card{padding:30px 20px 30px;}
+      .photo-wrap{width:140px; height:140px;}
+      h1{font-size:24px;}
+      h2{font-size:18px;}
+      .lead{font-size:15px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="photo-wrap">
+        <img src="https://uploads.onecompiler.io/445spzh44/445spnvsh/7cd88f5b-ade1-4eb9-8624-bf86b9d06f46.JPG" alt="Фото Жолддыбаев Мәлік Темірланұлы">
+      </div>
+
+      <h1>ЖЫЛДЫҚ АСҚА ШАҚЫРУ</h1>
+      <h2>Жолддыбаев Мәлік Темірланұлы</h2>
+
+      <div class="lead">
+        Құрметті ағайын-туыс, бауырлар, құда-жекжат, достары, көршілер!<br>
+        Сіздерді рухына бағышталған жылдық асына шақырамыз.
+      </div>
+
+      <div class="blocks">
+        <div class="block">
+          <b>Жылдық ас</b>
+          <div class="line">
+            12.12.2025 ж., сағат 13:00-де<br>
+            Мекенжайы: <br>
+            Шымкент қаласы,<br>
+            Бәйдібек Би даңғылы, 246/3,<br>
+            Shymkent Hall
+          </div>
+          <a class="map-link" target="_blank" href="https://www.google.com/maps/search/Шымкент+Бәйдібек+Би+даңғылы+246/3+Shymkent+Hall">Картамен қарау</a>
+        </div>
+      </div>
+
+      <div class="footer-note">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
